@@ -30,5 +30,5 @@ go build .
 
 ### 3. run the server executable (port is configurable)
 ```
-./mastermind.exe -c -port=80
+./codecrack.exe -c -port=80
 ```
