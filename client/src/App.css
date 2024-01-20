@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  height: 75px;
+  width: 50px;
+}
+
+.piece {
+  width: 50px;
+  height: 50px;
+  border-radius: 0.5rem;
+  border: 4px var(--bg-3) solid;
+  transition: opacity 0.1s;
+}
+
+.piece.drag {
+  cursor: grab;
+}
+
+.slot {
+  width: 50px;
+  height: 50px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.colour-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.piece-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.piece-slots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.game-form button {
+  margin-top: 1rem;
+}
+
+.game-info {
+  margin-left: auto;
+}

@@ -1,0 +1,102 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --col-0: transparent;
+  --col-1: #fff;
+  --col-2: #1a1a1a;
+  --col-3: #dc4848;
+  --col-4: #7aea7a;
+  --col-5: #4a4ac0;
+  --col-6: #eded88;
+  --col-7: #ffa752;
+  --col-8: #cb8ce0;
+  --bg-1: #242424;
+  --bg-2: #323232;
+  --bg-3: #494949;
+  --fg-1: #fff;
+  --fg-2: #9a9a9a;
+}
+
+* {
+  font-family: "Lexend Exa", sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-1);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--fg-1);
+  margin: 1rem 0;
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+hr {
+  width: 2px;
+  border: none;
+  background-color: var(--bg-3);
+  margin: 0 2rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.15rem;
+  background-color: var(--bg-2);
+  color: var(--fg-1);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: var(--bg-2);
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--fg-1);
+  transition: opacity 0.25s;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
