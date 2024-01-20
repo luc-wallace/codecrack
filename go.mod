@@ -1,4 +1,4 @@
-module github.com/luc-wallace/mastermind
+module github.com/luc-wallace/codecrack
 
 go 1.18
 
