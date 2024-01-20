@@ -1,7 +1,7 @@
 # codecrack
 
 ### an online multiplayer mastermind spinoff
-
+![a screenshot of the game](./game.png)
 # how to play
 
 the game is based on the popular mastermind board game, but instead using two games at once
