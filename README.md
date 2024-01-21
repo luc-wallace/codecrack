@@ -1,6 +1,7 @@
 # codecrack
 
 ### an online multiplayer mastermind spinoff
+[video showcase](https://www.youtube.com/watch?v=IVzXDt7tmTY)
 ![a screenshot of the game](./game.png)
 # how to play
 
